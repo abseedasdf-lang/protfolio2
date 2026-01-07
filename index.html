@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>موقعي الأنيق - تجربة رقمية مميزة</title>
+  <!-- Google Fonts: Cairo -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/src/style.css">
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">شعار<span class="highlight">ي</span></a>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link active-link">الرئيسية</a>
+          </li>
+          <li class="nav__item">
+            <a href="#features" class="nav__link">المميزات</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">من نحن</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">تواصل معنا</a>
+          </li>
+        </ul>
+        <div class="nav__close" id="nav-close">
+          <i class="bx bx-x"></i> <!-- Placeholder for icon -->
+          ✕
+        </div>
+      </div>
+
+      <div class="nav__btns">
+        <!-- Theme change button if needed -->
+        <div class="nav__toggle" id="nav-toggle">
+          ☰
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="main">
+    <!-- Hero Section -->
+    <section class="home section" id="home">
+      <div class="home__container container grid">
+        <div class="home__content">
+          <h1 class="home__title">
+            نصنع المستقبل <br> بلمسة <span class="highlight">إبداعية</span>
+          </h1>
+          <p class="home__description">
+            نقدم حلولاً برمجية وتصاميم عصرية تناسب تطلعاتكم. دقة في التنفيذ وجمال في المظهر لضمان أفضل تجربة مستخدم.
+          </p>
+          <div class="home__btns">
+            <a href="#contact" class="button button--flex">
+              ابـدأ الآن
+            </a>
+            <a href="#features" class="button button--link">
+              اكتشف المزيد ↓
+            </a>
+          </div>
+        </div>
+        <div class="home__img-wrapper">
+          <div class="home__blob"></div>
+          <!-- Using a gradient placeholder instead of image for now to ensure elegance without broken images -->
+          <div class="home__img-placeholder">
+            <span>تـمـيـز</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features section" id="features">
+      <div class="features__container container grid">
+        <div class="features__data">
+          <h2 class="section__title">لماذا تختارنا ؟</h2>
+          <p class="features__description">
+            نجمع بين الأداء العالي والتصميم الجذاب لنقدم لك منتجاً رقمياً متكاملاً.
+          </p>
+        </div>
+
+        <div class="features__group">
+          <div class="features__card scroll-reveal">
+            <div class="features__icon">⚡</div>
+            <h3 class="features__card-title">سرعة فائقة</h3>
+            <p class="features__card-description">أداء عالي واستجابة فورية لضمان تجربة سلسة.</p>
+          </div>
+          <div class="features__card scroll-reveal">
+            <div class="features__icon">💎</div>
+            <h3 class="features__card-title">تـصـمـيـم عصري</h3>
+            <p class="features__card-description">واجهات جذابة تعكس الهوية البصرية باحترافية.</p>
+          </div>
+          <div class="features__card scroll-reveal">
+            <div class="features__icon">🛡️</div>
+            <h3 class="features__card-title">حماية وأمان</h3>
+            <p class="features__card-description">نستخدم أحدث التقنيات لحماية بياناتك وموقعك.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+      <div class="about__container container grid">
+        <div class="about__img-wrapper scroll-reveal">
+          <div class="about__img-placeholder"></div>
+        </div>
+        <div class="about__data scroll-reveal">
+          <h2 class="section__title">عن رحلتنا</h2>
+          <p class="about__description">
+            نحن فريق من المبدعين نسعى لتحويل الأفكار إلى واقع رقمي ملموس. نؤمن بأن الجمال يكمن في البساطة والتفاصيل
+            الدقيقة.
+          </p>
+          <a href="#contact" class="button">تواصل معنا</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact CTA -->
+    <section class="contact section" id="contact">
+      <div class="contact__container container">
+        <div class="contact__content">
+          <h2 class="section__title white-text">جاهز للبدء ؟</h2>
+          <p class="contact__description white-text">دعنا نبني شيئاً مذهلاً معاً.</p>
+          <a href="mailto:info@example.com" class="button button--secondary">راسلنا الآن</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer section">
+    <div class="footer__container container grid">
+      <div class="footer__content">
+        <a href="#" class="footer__logo">شعار<span class="highlight">ي</span></a>
+        <p class="footer__description">الإبداع لا حدود له.</p>
+      </div>
+
+      <div class="footer__content">
+        <h3 class="footer__title">روابط</h3>
+        <ul class="footer__links">
+          <li><a href="#home" class="footer__link">الرئيسية</a></li>
+          <li><a href="#features" class="footer__link">الخدمات</a></li>
+          <li><a href="#about" class="footer__link">من نحن</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__social">
+        <a href="#" class="footer__social-link">فيسبوك</a>
+        <a href="#" class="footer__social-link">تويتر</a>
+        <a href="#" class="footer__social-link">انستغرام</a>
+      </div>
+    </div>
+    <span class="footer__copy">© 2024 جميع الحقوق محفوظة.</span>
+  </footer>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
